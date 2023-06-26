@@ -1,0 +1,45 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  font-weight: bold;
+}
+
+td, th {
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+  font-size: 14px;
+}
+
+td {
+  background-color: #fff;
+}
+
+tr:nth-child(even) td {
+  background-color: #f7f7f7;
+}
+
+tr:hover td {
+  background-color: #f1f1f1;
+}
+
+th:first-child, td:first-child {
+  font-weight: normal;
+  border-left: none;
+}
+
+th:last-child, td:last-child {
+  font-weight: normal;
+  border-right: none;
+}
+
+tr:first-child th, tr:first-child td {
+  border-top: none;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
